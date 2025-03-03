@@ -31,6 +31,55 @@ def create_new_offer(offers, products, customers):
     choosing products, and calculating totals.
     """
     # Omogućite unos kupca
+
+
+
+
+
+    # 1. Kreiraj novu ponudu
+        # Izraditi funkciju za unos novih proizvoda
+
+    # while True:
+    #     print(input('Unesite ime proizvoda: '))
+
+    #     print(input('Unesite opis prizvoda: '))
+
+    #     print(input(float('Unesite cijenu proizvoda: ')))
+
+    #     print(input('Zelite li dodati novi proizvod da/ne:'))  
+    #     if exit_app.lower() == 'ne':
+    #         break
+
+    #      # Dodjeliti novi id proizvoda
+
+    #     pass
+        
+
+
+    products = [products.json]
+
+    while True:
+        try:
+            with open('products.json' , 'r') as products
+        
+        print('Kreirajte novu ponudu')
+        print(input('Unesite ime proizvoda: '))
+
+        print(input('Unesite opis prizvoda: '))
+
+
+        exit_app('Zeliteli dodati novi proizvod (da/ne): ')
+        if exit_app.lower() == 'da':
+            break
+
+
+        pass
+
+
+
+
+
+    
     # Izračunajte sub_total, tax i total
     # Dodajte novu ponudu u listu offers
     pass
@@ -44,6 +93,22 @@ def manage_products(products):
     # Omogućite korisniku izbor između dodavanja ili izmjene proizvoda
     # Za dodavanje: unesite podatke o proizvodu i dodajte ga u listu products
     # Za izmjenu: selektirajte proizvod i ažurirajte podatke
+
+
+
+    # products = [products.json]
+
+    # while True:
+        
+    #     print(input('Unesite ime proizvoda: '))
+    #     print(input('Unesite opis prizvoda: '))
+
+    #     print('Kreirajte novu ponudu')
+    #     exit_app('Zeliteli dodati novi proizvod (da/ne): ')
+    #     if exit_app.lower() == 'da':
+    #         break
+
+
     pass
 
 
