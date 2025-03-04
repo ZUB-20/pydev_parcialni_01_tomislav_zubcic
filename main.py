@@ -32,6 +32,35 @@ def create_new_offer(offers, products, customers):
     """
     # Omogućite unos kupca
 
+def main():
+    while True:
+        print('Unesite broj opcije:')
+        print()
+        chois = input()
+
+        match int(chois):
+            case 1:
+                new_offers = create_new_offer
+                print(new_offers)
+            case 2:
+                products = manage_products
+                print(products)
+            case 3:
+                customers = manage_customers
+                print(customers)
+            case 4:
+                offers = display_offers
+                print(offers)
+            case 5:
+                break
+
+
+
+
+
+
+
+
 
 
 
@@ -61,7 +90,6 @@ def create_new_offer(offers, products, customers):
     while True:
         with open('offers.json' , 'w') as offers:
         
-            
 
 
         exit_app('Zeliteli dodati novi proizvod (da/ne): ')
