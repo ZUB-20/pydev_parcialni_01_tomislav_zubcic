@@ -60,7 +60,7 @@ def create_new_offer(offers, products, customers):
 
     while True:
         try:
-            with open('products.json' , 'r') as products
+            with open('products.json' , 'w') as products:
         
         print('Kreirajte novu ponudu')
         print(input('Unesite ime proizvoda: '))
