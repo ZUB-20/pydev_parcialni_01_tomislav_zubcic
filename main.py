@@ -56,20 +56,16 @@ def create_new_offer(offers, products, customers):
         
 
 
-    products = [products.json]
+    offers = [offers.json]
 
     while True:
-        try:
-            with open('products.json' , 'w') as products:
+        with open('offers.json' , 'w') as offers:
         
-        print('Kreirajte novu ponudu')
-        print(input('Unesite ime proizvoda: '))
-
-        print(input('Unesite opis prizvoda: '))
+            
 
 
         exit_app('Zeliteli dodati novi proizvod (da/ne): ')
-        if exit_app.lower() == 'da':
+        if exit_app.lower() == 'ne':
             break
 
 
@@ -87,6 +83,32 @@ def create_new_offer(offers, products, customers):
 
 # TODO: Implementirajte funkciju za upravljanje proizvodima.
 def manage_products(products):
+
+
+
+    products = [products.json]
+
+    while True:
+        with open('products.json' , 'w') as products:
+        
+        
+
+
+        exit_app('Zeliteli dodati novi proizvod (da/ne): ')
+        if exit_app.lower() == 'ne':
+            break
+
+
+        pass
+
+
+
+
+
+
+
+
+
     """
     Allows the user to add a new product or modify an existing product.
     """
@@ -114,6 +136,30 @@ def manage_products(products):
 
 # TODO: Implementirajte funkciju za upravljanje kupcima.
 def manage_customers(customers):
+
+    customers = [customers.json]
+
+    while True:
+        with open('offers.json' , 'w') as customers:
+        
+    
+
+
+        exit_app('Zeliteli dodati novi proizvod (da/ne): ')
+        if exit_app.lower() == 'ne':
+            break
+
+
+        pass
+
+
+
+
+
+
+
+
+
     """
     Allows the user to add a new customer or view all customers.
     """
