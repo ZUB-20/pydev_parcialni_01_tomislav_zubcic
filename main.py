@@ -118,13 +118,16 @@ def manage_products(products):
 
     while True:
         with open('products.json' , 'w') as products:
+            print()
+            print('Unesite ime kupca: ')
+            int [products]
         
         
 
 
-        exit_app('Zeliteli dodati novi proizvod (da/ne): ')
-        if exit_app.lower() == 'ne':
-            break
+            exit('Zeliteli dodati novog kupca (da/ne): ')
+            if exit.lower() == 'ne':
+                break
 
 
         pass
